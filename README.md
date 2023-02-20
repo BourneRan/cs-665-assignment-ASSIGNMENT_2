@@ -7,6 +7,8 @@
 | Assignment # | 2          |
 
 # Assignment Overview
+### Version2 is the latest version
+
 In Assignment_2, I think the Observer pattern is appropriate.
 The request said that "Your task is to develop a
 notification system that will inform drivers about delivery requests".
@@ -34,8 +36,10 @@ When the DeliveryRequest is just a data type.
 
 I think version2 is more appropriate for the requirements about HW_2.
 
+UML for version1 is automated shown by IDEA.
 
-UMLs are shown both version.
+UML for version2 is drawn by myself.
+
 
 # GitHub Repository Link:
 https://github.com/BourneRan/cs-665-assignment-ASSIGNMENT_2
