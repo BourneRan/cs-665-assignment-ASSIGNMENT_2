@@ -38,7 +38,7 @@ I think version2 is more appropriate for the requirements about HW_2.
 UMLs are shown both version.
 
 # GitHub Repository Link:
-https://github.com/ZhuoranXu/cs-665-assignment-ASSIGNMENT_2
+https://github.com/BourneRan/cs-665-assignment-ASSIGNMENT_2
 
 # Implementation Description 
 
