@@ -1,2 +1,12 @@
 edu/bu/met/cs665/Main.class
+edu/bu/met/cs665/Delivery_Version2/Observer.class
+edu/bu/met/cs665/Delivery_Version1/Observer.class
+edu/bu/met/cs665/Delivery_Version1/Subject.class
+edu/bu/met/cs665/Delivery_Version2/DeliveryRequest.class
+edu/bu/met/cs665/Delivery_Version2/Subject.class
+edu/bu/met/cs665/Delivery_Version1/DeliveryRequest.class
+edu/bu/met/cs665/Delivery_Version2/Driver.class
+edu/bu/met/cs665/Delivery_Version2/Shop.class
+edu/bu/met/cs665/Delivery_Version1/Driver.class
+edu/bu/met/cs665/Delivery_Version1/Shop.class
 edu/bu/met/cs665/example1/Person.class

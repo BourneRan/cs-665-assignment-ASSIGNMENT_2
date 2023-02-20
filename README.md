@@ -1,30 +1,74 @@
 
 | CS-665       | Software Design & Patterns |
-|--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+|--------------|------------|
+| Name         | FIRST_NAME LAST_NAME |
+| Date         | 02/20/2023 |
+| Course       | Spring     |
+| Assignment # | 2          |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+In Assignment_2, I think the Observer pattern is appropriate.
+The request said that "Your task is to develop a
+notification system that will inform drivers about delivery requests".
+
+Word "inform" implements that the Observer pattern is the right pattern to design.
+
+I have written two versions.
+
+In version1, I make the class shop and class driver both observers. And also make the DeliveryRequest as the
+Subject like Uber or something like this to allocate orders.
+
+I originally think there are two states for stores and drivers, which are "prepare the order"
+when the buyers "place an order" and "do nothing" when the drivers "deliver the order".
+
+As same as drivers, when the buyers "place an order", the drivers haven't got the order details yet,
+so the drivers' state should be "do nothing".
+
+I think it is too complex to finish because when there are more than one
+observer and just have one update function. So I
+just try to complete it when the different parameters to the request transmit into the
+function update.
+
+In version2, I make the shop as Subject, and the driver as Observer.
+When the DeliveryRequest is just a data type.
+
+I think version2 is more appropriate for the requirements about HW_2.
+
+
+UMLs are shown both version.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/ZhuoranXu/cs-665-assignment-ASSIGNMENT_2
 
 # Implementation Description 
 
-
-For each assignment, please answer the following:
-
 - Explain the level of flexibility in your implementation, including how new object types can
 be easily added or removed in the future.
+
+  Answering:In version_2, Driver.java is a class implement by Observer.
+So we can creat a new driver easily.
+And shop implement by Subject, so we can subscribe or unsubscribe Observer easily, and notify Observers at the same time.
+
+
 - Discuss the simplicity and understandability of your implementation, ensuring that it is
 easy for others to read and maintain.
+
+  Answering:In version_2, it is easy to understand that shop creates deliverRequest which is a data type. And notify all the drivers.
+
+
 - Describe how you have avoided duplicated code and why it is important.
+
+  Answering:I create the drivers all together. In fact, that is the point I need to consider in the future.
+Because the vehicles used by different drivers like truck, car, scooter or bicycle for different shops, we need to consider different orders, like we cannot use bicycle to deliver furniture。
+
+
+
 - If applicable, mention any design patterns you have used and explain why they were
 chosen.
-
+  Answering:In Assignment_2, I think the Observer pattern is appropriate.
+The request said that "Your task is to develop a
+notification system that will inform drivers about delivery requests".
+Word "inform" implements that the Observer pattern is the right pattern to design.
 
 # Maven Commands
 
